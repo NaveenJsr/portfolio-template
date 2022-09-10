@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #ff1493, #CCCCFF);
+    padding: 0 !important;
+}
+
+.navbar-brand
+{
+    height: 30px;
+    padding-left: 20px;
+    color: white;
+    font-family: 'Lora', serif;
+    
+} 
+ 
+.navbar li
+{
+    padding: 0 10px;
+}
+
+.navbar li a
+{
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.navbar-toggler-icon
+{
+    color: #fff;
+    font-size: 30px I !important;
+}
+
+/*----banner section -------*/
+
+#banner
+{
+    background-image: linear-gradient(to right, #ff1493, #CCCCFF);
+    padding-top: 5%;
+
+}
+
+.promo-title
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: 'Lora', serif;
+    color: #f5f5dc;
+    cursor: pointer;
+}
+.promo-tag{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #f5f5dc;
+    cursor: pointer;
+}
+
+.promo-resm{
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+.resume-download{
+    font-size: 15px;
+    color: #9C0358;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.resume-download:hover{
+    color: cornflowerblue;
+    transition: 1s;
+}
+
+.img-fluid{
+    height: 500px;
+}
+.img-fluid:hover{
+    cursor: pointer;
+}
+.bottom-img
+{
+    width: 100%;
+}
+
+
+
+/*---services section---*/
+#services
+{
+    padding: 20px 0;
+}
+
+.service-img
+{
+    height: 130px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.services
+{   
+    width: 40%;
+    padding: 20px;
+    margin-left: 80px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: #e6e6fa;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.services:hover img{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'bitter', serif;
+}
+
+.title{
+    margin-top: 50px;
+    font-family: 'Lora', serif;
+    color: #000;
+}
+
+.title::before
+{
+    content: '';
+<<<<<<< HEAD
+    background: red;
+=======
+    background: #000;
+>>>>>>> ede08c21bc7beb308b1393ae05ed4e756f94c6cb
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+    
+}
+
+
+/*--------About us section------*/
+
+#about-us
+{
+    padding: 20px 0;
+}
+.about-us p{
+    padding: 3%;
+    font-size: 15px;
+    color: #000;
+}
+.skill-heading{
+    font-weight: 500;
+    font-family: 'bitter', serif; 
+    color: #000;
+}
+.skill-des{
+    margin-top: 0px;
+    font-size: 15px;
+    color: #000;
+}
+
+.table{
+    width: 30%;
+    border: 0px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px gray;
+    text-align: center;
+    color: #000;
+    
+}
+
+/*----------work section-------------------*/
+
+#work
+{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.work{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+#project
+{
+    padding: 20px 0;
+    text-align: center;
+}
+
+.project{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    width: 20%;
+    background-color: #e6e6fa;
+    border-radius: 6px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 1px 1px 5px gray;   
+}
+
+.card:hover img{
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+.card-image img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'bitter', serif;
+    font-size: 15px;
+}
+ 
+.card-discription{
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+.card-discription p{
+    font-size: 13px;
+}
+.card-button{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-button button{
+    background: #e6e6fa;
+    border: 0;
+    padding: 3px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.card-button button:hover a{
+    color: #2F0981;
+    cursor: pointer;
+}
+.card-button button a{
+    color: #413333;
+    text-decoration: none;
+    font-weight: 550;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
+
+/*----social-media section----*/
+
+#social-media
+{
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.soicial-icons{
+    margin-bottom: 50px;
+}
+.soicial-icons a{
+    padding: 3px;
+}
+.soicial-icons img
+{   
+    width: 30px;
+    height: 30px;
+    transition: 0.5s;
+}
+.soicial-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+/*--------footer section-------*/
+
+#footer
+{
+    background: #3f3c3f;
+    color: #fff;
+    padding: 0px 0;
+}
+
+.footer-title{
+    padding: 2% 0;
+    cursor: pointer;
+}
+.footer-des{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+hr{
+    margin-top: 10px;
+
+}
+
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
